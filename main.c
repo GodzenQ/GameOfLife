@@ -9,9 +9,7 @@ int main(){
         BeginDrawing();
         ClearBackground(WHITE);
         DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+        EndDrawing();
     };
-
-    printf("Hello World\n");
-    printf("New world\n");
     return 0;
 };

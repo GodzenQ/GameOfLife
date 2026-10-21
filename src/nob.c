@@ -10,6 +10,7 @@ int main(int argc, char **argv)
     NOB_GO_REBUILD_URSELF(argc, argv);
     Nob_Cmd cmd = {0};
     nob_cmd_append(&cmd, "clang", "-Wall", "-Wextra", "-ggdb", "-o", BUILD_FOLDER"main", SRC_FOLDER"main.c");
+    nob_cmd_append(&cmd, "-fsanitize=address");
     nob_cmd_append(&cmd, "-I./raylib/include/");
     // For clang
     // nob_cmd_append(&cmd, "-Wl,-rpath,./raylib/lib/", "-L./raylib/lib/", "-lraylib");

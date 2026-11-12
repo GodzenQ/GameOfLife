@@ -18,19 +18,7 @@
 
 
 ## ***Progress***
-#### Completed 
-    
-    + The colors and the functions of raylib are not working from wsl maybe.
-        - The problem was EndDrawing() was not added.
-
-    + Analyze the ldd of main from wsl.
-        - All the non-standard ones are just X11-display things.
-
-    + Initial Positions which would lead to interesting outputs.
-        - All alive
-
-
-#### Completed
+   *Completed*
 
 
 ### Future

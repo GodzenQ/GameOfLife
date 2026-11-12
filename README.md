@@ -26,8 +26,15 @@
     + Analyze the ldd of main from wsl.
         - All the non-standard ones are just X11-display things.
 
-#### Next
-
     + Initial Positions which would lead to interesting outputs.
-    + The actual logic of the gameOfLife
-    
+        - All alive
+
+
+#### Completed
+
+
+### Future
+    * Make it infinite
+    * Use hash tables instead of arrays
+    * Zooming
+    * Rewinding and forwarding generations(some sort of playback scrubber)
